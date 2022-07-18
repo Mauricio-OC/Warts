@@ -50,6 +50,25 @@
                 <input class="subject" type="checkbox" value="SQL" name="" id="">SQL
                 <input class="subject" type="checkbox" value="Python" name="" id="">Python
             </div>
+            <label id="label-rate">Como você avalia a Trybewarts?</label>
+            <div>
+                <input type="radio" name="rate" value="1">1
+                <input type="radio" name="rate" value="2">2
+                <input type="radio" name="rate" value="3">3
+                <input type="radio" name="rate" value="4">4
+                <input type="radio" name="rate" value="5">5
+                <input type="radio" name="rate" value="6">6
+                <input type="radio" name="rate" value="7">7
+                <input type="radio" name="rate" value="8">8
+                <input type="radio" name="rate" value="9">9
+                <input type="radio" name="rate" value="10">10
+            </div>
+            <label class="textarea">Deixe seu comentário</label>
+            <div>
+                <textarea name="" id="" cols="30" rows="10" maxlength="500"></textarea>
+            </div>
+            <label id="label-infos">Você concorda com o uso das informações acima?</label>
+            <input type="checkbox" id="agreement" onchange="document.getElementById('submit-btn').disabled = !this.checked;" >
         </div>
             </h2>
             
@@ -57,8 +76,8 @@
 
         </form>
         <img id="trybewarts-forms-logo" src="images/trybewarts-colored.svg" alt="trybewarts logo">
-
     </main>
+    <button id="submit-btn" type="submit" >Enviar</button>
     <footer>Direitos reservados à Trybewarts©</footer>
     <script src="script.js"></script>
 </body>
