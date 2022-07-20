@@ -1,29 +1,29 @@
 .header {
-    display: flex;
-    background-color: rgb(50, 167, 145);
+  display: flex;
+  background-color: rgb(50, 167, 145);
 }
 
 .trybewarts-login {
-    display: flex;
-    align-self: flex-start;
+  display: flex;
+  align-self: flex-start;
 }
 
-#evaluation-form{
-    display: flex;
-    width: 675px;
-    flex-flow: column wrap;
-    padding: 20px;
+#evaluation-form {
+  display: flex;
+  width: 675px;
+  flex-flow: column wrap;
+  padding: 20px;
 }
 
 main {
-    display: flex;
+  display: flex;
 }
 
 #trybewarts-forms-logo {
-    height:500px;
+  height: 500px;
 }
 
 h2 {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
